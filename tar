@@ -2,9 +2,10 @@
 is used to compress/decompress and archive files
 #FORMAT/EXAMPLE#
 tar [options] [archivename] [filename]
-tar -xjvf bzip_archive.tbz extract_this_file
+tar -xjvf bzip_archive.tbz -C /extract_here/
 #OPTIONS#
 -c : specifies create archive mode
+-C : changes to directory name before operation
 -x : specifies extract mode
 -f : precedes the archive file name
 -z : also compresses/decompresses the archive using gzip
