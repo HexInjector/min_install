@@ -1,0 +1,12 @@
+#DESCRIPTION#
+removes files or directories
+#FORMAT/EXAMPLE#
+rm [options] [file]
+rm -fv [filename]
+#OPTIONS#
+-f : ignore nonexistant files, never prompt
+-i : prompt before every removal
+-r : remove directories and their contents recursively
+-d : remove empty directories
+-v : verbose output
+#END#
