@@ -1,0 +1,8 @@
+#DESCRIPTION#
+adds a new group to the system 
+#FORMAT/EXAMPLE#
+groupadd [options] [group]
+groupadd -R /mnt new_group
+#OPTIONS#
+-R : adds group on specified filesystem root
+#END#

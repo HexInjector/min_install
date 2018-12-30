@@ -1,0 +1,10 @@
+#DESCRIPTION#
+creates a directory
+#FORMAT/EXAMPLE#
+mkdir [options] [directory]
+mkdir -p /newdir/subdir
+#OPTIONS#
+-p : create parent directories, if non existent
+-m : set chmod mode
+-v : verbose mode
+#END#

@@ -1,0 +1,8 @@
+#DESCRIPTION#
+deletes a user from the system
+#FORMAT/EXAMPLE#
+userdel [ -r ] [username]
+userdel -r JohnDoe
+#OPTIONS#
+-r : removes the user's home directory
+#END#

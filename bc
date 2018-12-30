@@ -1,0 +1,8 @@
+#DESCRIPTION#
+is a program that performs math functions 
+#FORMAT/EXAMPLE#
+bc [options] [file]
+echo 10 \* 2 | bc
+#OPTIONS#
+-l : bc utilizes standard math library
+#END#

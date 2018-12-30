@@ -1,0 +1,11 @@
+#DESCRIPTION#
+displays PCI bus devices
+#FORMAT/EXAMPLE#
+lspci [options]
+lspci -vk
+#OPTIONS#
+-v : be verbose (-vv for very verbose)
+-k : show kernel drivers handling each device 
+-n : show vendor ID (-nn to show name also)
+-t : show bus tree
+#END#

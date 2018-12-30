@@ -1,0 +1,8 @@
+#DESCRIPTION#
+removes a directory
+#FORMAT/EXAMPLE#
+rmdir [directory]
+rmdir my_files
+#OPTIONS#
+-v : verbose mode
+#END#

@@ -1,0 +1,12 @@
+#DESCRIPTION#
+displays RAM details
+#FORMAT/EXAMPLE#
+free [options]
+free -k -s 10
+#OPTIONS#
+-k : displays memory in kilobytes 
+-m : displays memory in megabytes
+-b : displays memory in bytes
+-s : delay time. continously displays RAM info
+-c : the number of times to display RAM info (use with -s)
+#END#

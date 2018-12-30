@@ -1,0 +1,8 @@
+#DESCRIPTION#
+sends standard input to standard output and a file
+#FORMAT/EXAMPLE#
+tee [option] [file]
+ls -al | tee lslog.txt
+#OPTIONS#
+-a: appends file output
+#END#

@@ -1,0 +1,8 @@
+#DESCRIPTION#
+performs DNS lookups
+#FORMAT/EXAMPLE#
+host [options] [ip_address]
+host -t mx google.com
+#OPTIONS#
+-t : specify query type
+#END#

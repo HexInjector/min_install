@@ -1,0 +1,19 @@
+#DESCRIPTION#
+is used to display wireless interface details
+#FORMAT/EXAMPLE#
+iwlist [inteface] [option]
+iwlist wlan0 scanning
+#OPTIONS#
+iwlist [interface] scanning
+iwlist [interface] frequency
+iwlist [interface] rate
+iwlist [interface] keys
+iwlist [interface] power
+iwlist [interface] txpower
+iwlist [interface] retry
+iwlist [interface] event
+iwlist [interface] auth
+iwlist [interface] wpakeys
+iwlist [interface] genie
+iwlist [interface] modulation
+#END#

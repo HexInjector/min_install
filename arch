@@ -1,0 +1,8 @@
+#DESCRIPTION#
+displays CPU architecture
+#FORMAT/EXAMPLE#
+arch
+arch
+#OPTIONS#
+(none)
+#END#

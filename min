@@ -1,0 +1,26 @@
+#!/bin/bash
+clear
+if [ -z $1 ]; then
+printf ""
+elif [ -e $HOME/min/$1 ]; then
+printf "\e[1;34mDESCRIPTION:\e[0m\n\n"
+printf "\e[1;37m"$1:" \e[0m"
+sed -n '/DESCRIPTION/,/FORMAT/ p' $HOME/min/$1 | sed '/^\#/ d'
+printf "\n\e[1;34mFORMAT & EXAMPLE:\e[0m\n\n"
+sed -n '/FORMAT/,/OPTIONS/ p' $HOME/min/$1 | sed '/^\#/ d'
+printf "\n\e[1;34mCOMMON OPTIONS:\e[0m\n\n"
+sed -n '/OPTIONS/,/END/ p' $HOME/min/$1 | sed '/^\#/ d'
+printf "\n"
+else
+cat  $HOME/min/cheats_full | grep -i $1
+cheats_exit=$?
+cat  $HOME/min/nmap_full | grep -i $1
+if [ $? -eq 1 ]
+then
+if [ $cheats_exit -eq 1 ]
+then
+printf "$1: min file not found \n"
+fi
+fi
+fi
+

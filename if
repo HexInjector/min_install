@@ -1,0 +1,23 @@
+#DESCRIPTION#
+BASH conditional statement 
+#FORMAT/EXAMPLE#
+if [ condition ]; then 
+[commands]; fi 
+if [ x -gt 10 ]; then 
+echo "X is greater than 10"; fi 
+#OPTIONS#
+=         : is equal to 
+!=        : is not equal to 
+!EXPR     : EXPR is false
+-eq       : is numerically equal to 
+-gt       : is numerically greater than 
+-lt       : is numerically less than 
+-n STRING : STRING length is greater than zero 
+-z STRING : STRING length is zero
+-d FILE   : FILE exists and is a directory
+-e FILE	  : FILE exists
+-r FILE	  : FILE exists and the read permission is granted 
+-s FILE	  : FILE exists and it's size is greater than zero 
+-w FILE	  : FILE exists and the write permission is granted 
+-x FILE	  : FILE exists and the execute permission is granted 
+#END#

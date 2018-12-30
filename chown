@@ -1,0 +1,9 @@
+#DESCRIPTION#
+changes user/group owner of a file 
+#FORMAT/EXAMPLE#
+chown [options] user:group [file]
+chown -R root:gamers ./ 
+#OPTIONS#
+-R : change owners recursively in a specified directory
+-v : verbose output 
+#END

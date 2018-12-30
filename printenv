@@ -1,0 +1,8 @@
+#DESCRIPTION#
+prints a list of enviornment vairables
+#FORMAT/EXAMPLE#
+printenv [option] [variable]
+printenv PATH
+#OPTIONS#
+--version : print version
+#END#

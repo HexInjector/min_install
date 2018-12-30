@@ -1,0 +1,13 @@
+#DESCRIPTION#
+is a utility used for duplicating or converting data
+#FORMAT/EXAMPLE#
+dd [options]
+dd if=/dev/sda1 of=/dev/sdb1 bs=4096 conv=sync,noerror
+#OPTIONS#
+if= : specifies input file
+of= : specifies output file
+bs= : sets read and write block size
+conv= : specifies data conversion options
+#END#
+
+

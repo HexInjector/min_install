@@ -1,0 +1,9 @@
+#DESCRIPTION#
+displays the ending lines of a file 
+#FORMAT/EXAMPLE#
+tail [options] [file] 
+tail -n5 ./log.txt 
+#OPTIONS#
+-n : specify the number of lines to display 
+-f : follow the changes of a file 
+#END#

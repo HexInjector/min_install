@@ -1,0 +1,18 @@
+#DESCRIPTION#
+are ways to extract and manipulate variables
+#FORMAT/EXAMPLE#
+${[arguments]}
+${var[*]}
+#OPTIONS
+${PARAMETER}                Simple expansion
+${PARAMETER#PREFIX}         Prefix removal
+${PARAMETER%SUFFIX}         Suffix removal
+${PARAMETER/PATTERN/STRING} Search and replace
+${PARAMETER/PATTERN}        Search and remove
+${#PARAMETER}               String length
+${PARAMETER:OFFSET:LENGTH}  Substring expansion
+${PARAMETER:-WORD}          Use a default value
+${PARAMETER:=WORD}          Assign a default value
+${PARAMETER:+WORD}          Use an alternate value
+${PARAMETER:?WORD}          Display error if null or unset
+#END#

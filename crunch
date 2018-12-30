@@ -1,0 +1,8 @@
+#DESCRIPTION#
+is a string generator
+#FORMAT/EXAMPLE#
+crunch [min] [max] [options]
+crunch 2 4 -f charset.lst mixalpha-numeric -o wordlist
+#OPTIONS#
+
+#END#

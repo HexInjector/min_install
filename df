@@ -1,0 +1,10 @@
+#DESCRIPTION#
+reports disk information
+#FORMAT/EXAMPLE#
+df [options]
+df -Th
+#OPTIONS#
+-h : human readable formart
+-i : show inode numbers
+-T : print file system type
+#END#

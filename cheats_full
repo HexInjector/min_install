@@ -1,0 +1,67 @@
+USER/PERMISSION SETTINGS
+CHANGE FILE OWNER:			chown [user]:[group] [filename]
+CHANGE FILE PERMISSIONS:		chmod ugo+/-rwx [filename]
+CHANGE FILE GROUP:			chgrp [groupname] [filename]
+ADD USER TO GROUP:			addgroup [username] [groupname]
+REMOVE USER FROM GROUP :		deluser [username] [groupname]
+ADD GROUP:				groupadd [groupname]
+DELETE GROUP:				groupdel [groupname] or delgroup [groupname]
+ADD A USER:				useradd [username]
+DELETE A USER:				userdel [username]
+CHANGE USER PASSWORD:			passwd [username]
+SWITCH USER:				su [username]
+OUTPUT CURRENT USER:			whoami
+OUTPUT ALL GROUPS:			cat /etc/group | cut -d':' -f1
+OUTPUT ALL USERS:			cat /etc/passwd | cut -d':' -f1
+
+FILE/DISK MANAGEMENT
+BACKUP DIRECTORY TO COMPRESSED TAR:	tar -cvpzf backup.tar.gz --exclude='/media' --exclude='/tmp' --exclude='/run' --exclude='/proc' --exclude='/dev' --exclude='/sys' --exclude='/mnt' /
+RESTORE DIRECTORY FROM COMPRESSED TAR:  tar -xvpzf [tar file] -C [directory]
+COPY FROM DEVICE FILE:			dd if=[filename] of=[filename] [options]
+MOVE OR RENAME FILE:			mv [filename] [directory/newfilename]
+COPY FILE:				cp [filename] [newfilename]
+FIND FILE:			        find / -name [filename]
+FIND FILE:				locate [filename]
+UPDATE LOCATE FILE CACHE:		updatedb
+CREATE FILE:				touch [filename]
+HARD LINK FILE:				ln [target] [link]
+SOFT LINK FILE:				ln -s [target] [link]
+CHECK DISK USAGE:			df -h
+CHECK MEMORY USAGE:			free -h
+PRINT CURRENT DIRECTORY:		pwd
+VIEW DISKS AND PARTITIONS:		lsblk
+MOUNT DEVICE:                           mount -t [fstype] /dev/[devicefile] /mnt/mountdir
+
+PROCESS/SERVICE MANAGEMENT
+LIST PROCESSES (CONTINUOUS):		top
+LIST PROCESSES:				ps -e
+LIST ALL SERVICES:			service --status-all
+START/STOP DISABLE:ENABLE SERVICE:	systemctl enable/disable/start/stop [servicename]
+KILL PROCESS BY PID:			kill SIGTERM/SIGKILL [pid]
+KILL PROCESS BY NAME (PATTERN MATCH):	pkill [process name]
+KILL PROCESS BY NAME:			killall [process name]
+LIST SERVICE BY NAME:			pgrep -l [process name]
+
+NETWORK MANAGEMENT
+OUTPUT ACTIVE NETWORK CONNECTIONS:	netstat -tupln
+OUTPUT PUBLIC IP:			curl ipinfo.io/ip
+OUTPUT DNS SERVER:			cat /etc/resolv.conf
+SHOW DNS SERVER:			nmcli dev show | grep DNS
+CHECK DEFAULT GATEWAY:			route -n
+TURN ON/OFF NETWORK INTERFACE:		ifconfig [devicename] up,down
+					systemctl restart/start/stop networking
+
+PACKAGE MANAGEMENT 
+DEB PACKAGE INSTALL/REMOVE/LIST:	dpkg -i -r --purge -l
+APT PACKAGE MANAGER COMMANDS:		apt-get install update upgrade remove autoremove clean
+FIX BROKEN APT DEPENDENCIES:		apt --fix-broken install
+UPGRADE DISTRO:				apt-get dist-upgrade
+UPDATE GRUB CONFIGURATION:		update-grub
+LIST INSTALLED APT PACKAGES:		apt list
+LIST APT PACKAGE DEPENDENCIES:		apt-cache rdepends/depends [packagename]
+
+FILTERING 
+FILTER BY CHARACTER LOCATION/DELIMITER:	| cut -c-3, -d':' -f1 [filename]
+FILTER BY STRING NAME:			| grep [string]
+SORT ALPHABETICALLY:			| sort -u -nk[numeric column]
+

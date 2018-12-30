@@ -1,0 +1,10 @@
+#DESCRIPTION#
+looks for a file
+#FORMAT/EXAMPLE#
+find [path] [option] [pattern] 
+find /etc/ -name *.conf 
+#OPTIONS#
+-name : searches for a file with a name containing the pattern
+-iname: same as -name, except ignores case sensitivity
+-type : followed by 'f' for files, 'd' for directories
+#END#

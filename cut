@@ -1,0 +1,11 @@
+#DESCRIPTION#
+selects portions of a stream or file and writes them to standard output 
+#FORMAT/EXAMPLE#
+cut [options]{list} [file]
+cut -f1-3 -d' ' output.txt
+#OPTIONS#
+-b : cuts list of bytes 
+-c : cuts list of characters 
+-f : cuts list of fields 
+-d : selects field delimiter 
+#END

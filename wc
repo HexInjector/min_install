@@ -1,0 +1,11 @@
+#DESCRIPTION#
+counts lines, words and bytes
+#FORMAT/EXAMPLE#
+wc [options] [file]
+ls -al | wc -l
+#OPTIONS#
+-c : counts bytes
+-m : counts characters
+-l : counts lines
+-w : counts words
+#END#

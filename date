@@ -1,0 +1,28 @@
+#DESCRIPTION#
+displays or sets the system time/date 
+#FORMAT/EXAMPLE#
+date [options] +[format]
+date -u +%T" "%a
+#OPTIONS#
+-s : sets the time/date
+-u : displays UTC time
++%a : displays weekday name in short  
++%A : displays weekday name in full  
++%b : displays nonth name in short  
++%B : displays month name in full 
++%d : displays day of month
++%D : displays date in MM/DD/YY
++%F : displays date in YYYY-MM-DD
++%H : displays hour in (00..23) format
++%I : displays hour (01..12) format
++%j : displays day of year (001..366)
++%m : displays month (01..12) 
++%M : displays minute (00..59)
++%S : displays second (00..60) 
++%N : displays nanoseconds (000000000..999999999)
++%T : displays time as HH:MM:SS (24 hour format)
++%u : displays day of week (1..7); 1 is Monday
++%U : displays week of year starting Sunday
++%Y : displays full year in YYYY 
++%Z : alphabetic time zone abbreviation
+#END#

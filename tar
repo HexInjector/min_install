@@ -1,0 +1,14 @@
+#DESCRIPTION#
+is used to compress/decompress and archive files
+#FORMAT/EXAMPLE#
+tar [options] [archivename] [filename]
+tar -xjvf bzip_archive.tbz extract_this_file
+#OPTIONS#
+-c : specifies create archive mode
+-x : specifies extract mode
+-f : precedes the archive file name
+-z : also compresses/decompresses the archive using gzip
+-j : also compresses/decompresses the archive using bzip2
+-t : lists the files in an archive
+-v : verbose output
+#END#

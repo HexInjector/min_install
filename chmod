@@ -1,0 +1,18 @@
+#DESCRIPTION#
+changes permissions for a file's owner/group/others
+#FORMAT/EXAMPLE#
+chmod [options] [permissions] [file] 
+chmod -v 755 ./file.sh 
+#OPTIONS#
+-R : change permissions recursively in a specified directory 
+-v : verbose output 
+
+7: rwx : read, write, execute 
+6: rw- : read and write 
+5: r-x : read and execute 
+4: r-- : read only 
+3: -wx : write and execute
+2: -w- : write only
+1: --x : execute only  
+0: --- : none 
+#END

@@ -1,0 +1,8 @@
+#DESCRIPTION#
+deletes a group from the system 
+#FORMAT/EXAMPLE#
+groupdel [options] [group]
+groupdel -R /mnt developers
+#OPTIONS#
+-R : removes group from specified filesystem root
+#END#

@@ -1,0 +1,9 @@
+#DESCRIPTION#
+runs a program with modified priority
+#FORMAT/EXAMPLE#
+nice [options] [command]
+nice -n -5 top
+#OPTIONS#
+-n : add integer to nice value, can be betwen -20 (most favorable) to 19 (least favorable)
+--version : shows version
+#END#

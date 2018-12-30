@@ -1,0 +1,11 @@
+#DESCRIPTION#
+prints user and group information 
+#FORMAT/EXAMPLE#
+id [option] [user]
+id -n -G username
+#OPTIONS#
+-u : prints effective user ID
+-G : prints all groups IDs
+-g : prints only effective group IDs
+-n : prints name instead of number for -ugG
+#END#

@@ -1,0 +1,11 @@
+#DESCRIPTION#
+is used to compress/decompress files
+#FORMAT/EXAMPLE#
+gzip [options] [filename] > [filename]
+gzip -c file.txt > file.txt.gz
+#OPTIONS#
+-c : keep the original file after compressing
+-d : decompresses a compressed gzip file
+-l : lists information about an existing gzip file
+-r : compressed recursively
+#END#

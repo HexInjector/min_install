@@ -1,0 +1,8 @@
+#DESCRIPTION#
+provides a list of USB bus devices
+#FORMAT/EXAMPLE#
+lsusb [options]
+lusub -v
+#OPTIONS#
+-v : verbose output
+#END#

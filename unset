@@ -1,0 +1,9 @@
+#DESCRIPTION#
+deletes an enviornment variable 
+#FORMAT/EXAMPLE#
+unset [option] [name]
+unset -f FUNCTION
+#OPTIONS#
+-f : name refers to a function
+-v : name refers to a variable (default)
+#END#

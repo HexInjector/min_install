@@ -1,0 +1,8 @@
+#DESCRIPTION#
+prints the groups a user belongs to
+#FORMAT/EXAMPLE#
+groups [username]
+groups root
+#OPTIONS#
+--version : check version
+#END#

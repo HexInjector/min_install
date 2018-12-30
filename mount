@@ -1,0 +1,9 @@
+#DESCRIPTION#
+mounts devices, or lists mounted devices 
+#FORMAT/EXAMPLE#
+mount [options] [device] [directory]
+mount /dev/cdrom /mnt/cd
+#OPTIONS#
+-t: specify file system type
+-l: list mounted devices
+#END#

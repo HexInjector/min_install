@@ -1,0 +1,10 @@
+#DESCRIPTION#
+displays detailed CPU information
+#FORMAT/EXAMPLE#
+lscpu [options] [-s sysroot]
+lscpu -px
+#OPTIONS#
+-p : displays information in a parsable format
+-x : displays details in hexadecimal
+-s : specifies the system's root directory
+#END#

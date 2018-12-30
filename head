@@ -1,0 +1,8 @@
+#DESCRIPTION#
+displays the beginning lines of a file 
+#FORMAT/EXAMPLE#
+head [options] [file] 
+head -n5 ./log.txt 
+#OPTIONS#
+-n : specify the number of lines to display 
+#END#

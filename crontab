@@ -1,0 +1,14 @@
+#DESCRIPTION#
+is a background task scheduler 
+#FORMAT/EXAMPLE#
+crontab [-u user] [options] file
+crontab -u root -e
+#OPTIONS#
+-r : removes cron entries
+-l : lists cron entries
+-e : opens up the cron editor
+
+ min     hour    day    month  weekday
+(0-59)  (0-23)  (1-31)  (1-12)  (0-6)
+  *       *       *       *       *   [action]
+#END#

@@ -1,0 +1,10 @@
+#DESCRIPTION#
+is a command for viewing and modyfing network device settings
+#FORMAT/EXAMPLE#
+ip [options] [commands]
+ip addr show dev enp0s31f6
+#OPTIONS#
+addr : shows device address information
+link set : set device up, down, or set mtu
+route : add, delete, replace, or get a route listing
+#END#

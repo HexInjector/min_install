@@ -1,0 +1,19 @@
+#DESCRIPTION#
+is a content tracking, version control system
+#FORMAT/EXAMPLE#
+git [commands]
+git remote add documents https://github.com/GitUser/documents.git
+#OPTIONS#
+add . : add all changes to next commit
+commit -a : commit all changes
+init : creates new local repository
+branch -av : lists all branches
+branch [branchname] : creates new branch
+checkout [branchname] : switch current branch
+remote -v : list remotes
+remote add [shortname] [url] : add new remote repository
+pull [remote] [branch] : download and merge changes
+push [remote] [branch] : upload local changes to remote
+reset --hard HEAD : discard local changes
+status : list repository changes
+#END#

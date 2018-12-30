@@ -1,0 +1,8 @@
+#DESCRIPTION#
+reads and stores words from a line of standard input
+#FORMAT/EXAMPLE#
+read [options] [var1] [var2] 
+read s1 s2; echo $s2 $s1
+#OPTIONS#
+-a : read words into an array
+#END#

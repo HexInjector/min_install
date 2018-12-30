@@ -1,0 +1,15 @@
+#DESCRIPTION#
+used to modify a user account
+#FORMAT/EXAMPLE#
+usermod [options] [login]
+usermod -l new_username old_username
+#OPTIONS#
+-l : change login name
+-s : change user's default login shell
+-p : change user's password
+-u : change user's UID
+-d : change user's home directory
+-g : change user's primary group
+-G : change user's supplementary groups
+-a : use with -G to append group
+#END#

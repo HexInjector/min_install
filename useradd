@@ -1,0 +1,14 @@
+#DESCRIPTION#
+adds a user to the system
+#FORMAT/EXAMPLE#
+useradd [options] [username]
+useradd JohnDoe
+#OPTIONS#
+-c : adds text string to describe login
+-d : sets user's home directory
+-e : sets user expiration (YYYY-MM-DD)
+-g : sets the user's primary group name/number
+-G : specify groups that user will be a member of
+-s : sets user's default shell
+-u : specifies UID of user
+#END#

@@ -1,0 +1,8 @@
+#DESCRIPTION#
+prints the current user's username. same as id -un
+#FORMAT/EXAMPLE#
+whoami [option]
+whoami 
+#OPTIONS#
+--version: print version
+#END#
