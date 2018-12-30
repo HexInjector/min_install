@@ -1,0 +1,13 @@
+#DESCRIPTION#
+is a command line tool for managing services
+#FORMAT/EXAMPLE#
+systemctl [action] [service]
+systemctl start application.service
+#OPTIONS#
+start   : starts service
+stop    : stops service
+restart : restarts service
+enable  : enables service at boot
+disable : disables service at boot
+status  : shows the status of a service 
+#END#

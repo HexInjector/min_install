@@ -1,0 +1,19 @@
+#DESCRIPTION#
+creates a filesystem on a partition
+#FORMAT/EXAMPLE#
+mkfs [options] [partition]
+mkfs -t ext3 /dev/sdb1
+#OPTIONS#
+-t : specifies the filesystem type
+-c : checks partition for bad blocks
+-V : verbose output
+
+-----------------------------------------
+
+kfs.bfs       mkfs.ext4     mkfs.ntfs
+mkfs.btrfs    mkfs.f2fs     mkfs.reiserfs
+mkfs.cramfs   mkfs.fat      mkfs.vfat
+mkfs.exfat    mkfs.jfs      mkfs.xfs
+mkfs.ext2     mkfs.minix
+mkfs.ext3     mkfs.msdos
+#END#
