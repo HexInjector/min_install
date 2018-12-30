@@ -1,0 +1,13 @@
+#DESCRIPTION#
+is a package manager for Arch based systems
+#FORMAT/EXAMPLE#
+pacman [options] [package]
+pacman -Syu
+#OPTIONS#
+-R   : remove package
+-Rs  : remove package and its unneeded dependencies
+-Rns : remove package and configuration files, avoid orphans
+-S   : install package
+-Syu : update the system
+-Syy : update the database
+#END#
