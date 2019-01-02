@@ -1,14 +1,16 @@
 #DESCRIPTION#
 searches a file or directory for a specified string
 #FORMAT/EXAMPLE#
-grep [options] "string" [file]  
-grep -r -i "december" ./ 
+grep [options] "string" [file]
+grep -r -i "december" ./
 #OPTIONS#
 -A : output additional lines after matching lines
 -B : output additional lines before matching lines
--C : output additional lines before and after  matching lines
+-C : output additional lines before and after matching lines
 -E : grep interprets regular expressions
+-c : counts the number of matched lines
 -i : case insensitive
--w : match full word only. ignore substrings 
+-w : match full word only. ignore substrings
 -r : specify directory instead of file. recursive search
+-- : signifies the end of options (grep -- -d)
 #END#

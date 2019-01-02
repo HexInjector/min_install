@@ -1,0 +1,11 @@
+#DESCRIPTION#
+is used to sort lines by fields, dictionary or numeric
+#FORMAT/EXAMPLE#
+sort [options] [file]
+ls -l | sort -r -dk9
+#OPTIONS#
+-n : specifies a numeric sort
+-d : specified a dictionary sort
+-t : specifies the field delimiter
+-r : performs a reverse sort
+#END#

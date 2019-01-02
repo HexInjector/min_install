@@ -1,0 +1,9 @@
+#DESCRIPTION#
+shows the manual file for a command
+#FORMAT/EXAMPLE#
+man [options] [commandname]
+man -k generate
+#OPTIONS#
+-k : searches for keyword in command descriptions
+-f : lists all manual files for command
+#END#

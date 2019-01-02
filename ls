@@ -9,4 +9,5 @@ ls -al /usr/sbin
 -h : shows human readable file sizes
 -R : display sub directories' content recursively
 -t : sort by last modified
+-d : omits subdirectories when globbing
 #END#

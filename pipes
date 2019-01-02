@@ -1,0 +1,12 @@
+#DESCRIPTION#
+are used to redirect output
+#FORMAT/EXAMPLE#
+echo "text to send to file1" > file1
+#OPTIONS#
+|  : pipes standard output to a command
+>  : pipes standard output to a file
+>> : appends standard output to a file
+2> : pipes standard error to a file
+&> : pipes both standard output and error to a file
+<  : pipes standard input from a file
+#END#

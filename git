@@ -13,7 +13,7 @@ checkout [branchname] : switch current branch
 remote -v : list remotes
 remote add [shortname] [url] : add new remote repository
 pull [remote] [branch] : download and merge changes
-push [remote] [branch] : upload local changes to remote
+push [remote] [branch] : upload changes to remote (--force to force)
 reset --hard HEAD : discard local changes
 status : list repository changes
 #END#

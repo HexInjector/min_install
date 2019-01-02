@@ -1,0 +1,15 @@
+#DESCRIPTION#
+are special characters used for pattern matching
+#FORMAT/EXAMPLE#
+ls -l | grep s$
+#OPTIONS#
+.  : any single character
+[] : a range of characters or character set
+*  : previous character repeated 0 or more times
+^  : lines begins with following character
+$  : lines ends with previous character
+\  : next character is treated as literal
+?  : (extended) previous character matched 0 or 1 time
++  : (extended) previous character repeated 1 or mote times
+|  : (extended) used as an OR operator
+#END#

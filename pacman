@@ -1,3 +1,4 @@
+
 #DESCRIPTION#
 is a package manager for Arch based systems
 #FORMAT/EXAMPLE#
@@ -8,6 +9,10 @@ pacman -Syu
 -Rs  : remove package and its unneeded dependencies
 -Rns : remove package and configuration files, avoid orphans
 -S   : install package
+-Ss  : searches database for package name
 -Syu : update the system
 -Syy : update the database
+-Qe  : lists explicitly install packages
+-Ql  : lists a package's files
+-Qii : lists a package's information
 #END#

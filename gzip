@@ -7,5 +7,5 @@ gzip -c file.txt > file.txt.gz
 -c : keep the original file after compressing
 -d : decompresses a compressed gzip file
 -l : lists information about an existing gzip file
--r : compressed recursively
+-r : compresses recursively
 #END#
